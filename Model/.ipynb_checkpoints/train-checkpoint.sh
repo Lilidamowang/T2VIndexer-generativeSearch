@@ -1,0 +1,2 @@
+python3 main.py --train_batch_size 64 --eval_batch_size 64 --kary 30 --output_vocab_size 30 --model_info base --fp_16 0 --info webvid_c4v_qg_layern
+# --checkpoint_path /root/autodl-tmp/generateSearch/Model/logs/k10_trainonly.ckpt --mode eval

@@ -1,0 +1,4 @@
+'k30_base_history_recall1=0.490452_epoch=27'
+'kary:_40_base_k30_c30_dev_recall_dem:_2_ada:_1_adaeff:_1_adanum:_4_RDrop:_0.1_0.15_0_lre2.0d1.0_epoch=18-recall1=0.482412.ckpt'
+'kary:_40_base_k30_c30_dev_recall_dem:_2_ada:_1_adaeff:_1_adanum:_4_RDrop:_0.1_0.15_0_lre2.0d1.0_epoch=20-recall1=0.484422.ckpt'
+'kary:_60_base_k30_c30_dev_recall_dem:_2_ada:_1_adaeff:_1_adanum:_4_RDrop:_0.1_0.15_0_lre2.0d1.0_epoch=16-recall1=0.492462.ckpt'

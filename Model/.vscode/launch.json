@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "k30",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "env": {},
+            "console": "integratedTerminal",
+            "args": [
+                "--train_batch_size",
+                "32",
+                "--eval_batch_size",
+                "32",
+                "--kary",
+                "30",
+                "--output_vocab_size",
+                "30",
+                "--model_info",
+                "small",
+                "--fp_16",
+                "0"
+            ],
+            "cwd": "/root/autodl-tmp/generateSearch/Model"
+        },
+        {
+            "name": "Python: main.py --train_batch_size 64 --eval_batch_size 32 --kary 10 --output_vocab_size 10 --model_info base --fp_16 1 --info webvid_c4v_qg_layer3_10_trainonly --checkpoint_path /root/autodl-tmp/generateSearch/Model/logs/k10_trainonly.ckpt --mode eval",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "env": {},
+            "console": "integratedTerminal",
+            "args": [
+                "--train_batch_size",
+                "64",
+                "--eval_batch_size",
+                "8",
+                "--kary",
+                "30",
+                "--output_vocab_size",
+                "30",
+                "--model_info",
+                "base",
+                "--fp_16",
+                "0",
+                "--info",
+                "train_only",
+                "--mode",
+                "train",
+                "--position",
+                "0"
+            ],
+            "cwd": "/root/autodl-tmp/generateSearch/Model",
+            "python": "/root/autodl-tmp/condaenv/NCI/bin/python3.8"
+        }
+    ]
+}
