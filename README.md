@@ -22,7 +22,7 @@ Once your data is ready, initiate the training process by executing the shell sc
 bash Model/train.sh
 ```
 
-## Future Plans
+## Future Plans ~~(画饼 in Chinese)~~
 
 I intend to (MAYBE):
 
